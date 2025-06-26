@@ -1,0 +1,56 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+/*exit button styling */
+#exitButton:hover{
+	-fx-background-color:red;
+	-fx-background-radius:0;
+	-fx-border-radius:0;
+}
+
+#exitButton{
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+}
+
+/*minimize button styling */
+
+#minimizeButton{
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+}
+
+
+#minimizeButton:hover{
+	-fx-background-color: #302b85;
+	-fx-background-radius:0;
+	-fx-border-radius:0; 
+}
+
+.list-view {
+    -fx-background-color: white;
+    -fx-control-inner-background: white;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0.3, 0, 4);
+}
+
+.list-cell {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.list-cell:filled:selected {
+    -fx-background-color: #d0e0ff; /* selection color */
+}
+.list-cell:filled:hover {
+    -fx-background-color: #e6f0ff; /* hover color */
+}
+
+
+#mainPane{
+	-fx-background-color: linear-gradient(to bottom right, #0f0c29, #302b63, #24243e);
+}
+
+
